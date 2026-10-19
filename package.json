@@ -1,0 +1,12 @@
+{
+  "name": "financial-assistant",
+  "module": "agent.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run agent.js"
+  },
+  "dependencies": {
+    "groq-sdk": "^1.6.0"
+  }
+}
